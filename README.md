@@ -1,3 +1,4 @@
 # WebStudy_2020
-#I edited this branch!
-# I want to eat chicken!! 
+
+#2020년 7월 10일부터 시작한 웹 프로그래밍의 기초공부이다.
+#학회 선배님이 내주신 과제를 완료하며, 필요한 정보는 w3school.com에서 찾아가며 완료하였다.
