@@ -1,0 +1,578 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mihae's Portfolio</title>
+  <style>
+    body{
+      background-color: #F2EEED;
+    }
+    html{
+      font-family: Arial,Helvetica, sans-serif;
+    }
+    input[type=submit]{
+      color:black;
+      background-color:white;
+      border:none;
+      height:30px;
+      padding:10px;
+      cursor:pointer;
+
+    }
+    p {
+      font-size : 16px;
+    }
+    #black_button{
+      background-color:black;
+      color:white;
+    }
+
+    .whiteBigBox {
+      border-top: 5px solid lightgray;
+      padding: 13px;
+      margin:20px;
+
+    }
+
+    .square-content{
+      width:480px;
+      float: left;
+      margin:10px;
+      background-color:white;
+    }
+
+    .text-content{
+      padding:15px;
+          }
+
+    .row{
+      margin-left:0px;
+      margin-right:0px;
+          }
+
+      .pages{
+      clear:both;
+      margin-left:550px;
+
+          }
+      .pageNum{
+        display:inline-block;
+        margin:30px;
+      }
+
+      .pageNum a {
+        color:black;
+        padding:15px 20px;
+        margin:10px;
+        text-decoration:none;
+      }
+
+      #blackNum{
+        background-color:black;
+        color:white;
+      }
+
+      .mid-content{
+        margin: 0px 40px;
+      }
+
+      .imgMargin{
+        margin:10px;
+      }
+      .widthCenter{
+        width:1575px;
+        margin:10px 1000px;
+      }
+
+      .mid-text{
+        margin:35px;
+
+      }
+
+      .mid-text h4{
+        font-size:25px;
+      }
+
+      .mid-text p{
+        font-size:20px;
+      }
+
+      .technical{
+        margin:35px;
+      }
+
+      .technical h5{
+        font-size:25px;
+      }
+
+      .technical p{
+        font-size:20px;
+      }
+
+      .container{
+        width:100%;
+        height:60px;
+        background-color:gray;
+      }
+
+      .skills{
+        text-align:center;
+        color:white;
+        height:45px;
+        font-size:25px;
+        padding-top:15px;
+
+      }
+
+      .photography{
+        width:95%;
+        background-color:#575757;
+      }
+
+      .webDesign{
+        width:85%;
+        background-color:#575757;
+
+      }
+      .photoshop{
+        width:80%;
+        background-color:#575757;
+      }
+
+      #resumeButton{
+        background-color:#575757;
+        color:white;
+        margin-top:30px;
+        font-size:20px;
+        height:60px;
+        width:250px;
+      }
+
+      .charge{
+        margin:60px 35px 35px 35px;
+      }
+
+      .charge p{
+        font-size:25px;
+      }
+
+      .ChooseTitle{
+        color:white;
+        height:70px;
+        font-size:30px;
+        text-align:center;
+        vertical-align:middle;
+        padding-top:30px;
+      }
+
+      .black{
+        background-color:#575757;
+      }
+
+      .mint{
+        background-color:#0db9ac;
+      }
+
+      p.listBox{
+        text-align:center;
+        height:50px;
+        margin:0px;
+        border:1px solid #e6e6e6;
+        color:#8e8e8e;
+        font-size:20px;
+        padding-top:20px;
+      }
+
+      p.listBoxbig {
+        text-align:center;
+        height:70px;
+        margin:0px;
+        border:1px solid #e6e6e6;
+        color:#8e8e8e;
+        font-size:20px;
+        padding-top:20px;
+      }
+
+      .ChooseBox {
+        border:1px solid lightgray;
+        width:31.5%;
+        float:left;
+        margin-right:20px;
+      }
+
+      #SignUpButton {
+        text-align:center;
+        background-color:#0db9ac;
+        color:white;
+        width:180px;
+        height:60px;
+        margin-left: 150px;
+        margin-top:20px;
+        margin-bottom:20px;
+        padding: 0px 10px 0px 10px;
+        font-size:22px;
+      }
+
+      #bigNum{
+        font-size:30px;
+      }
+      #lightWord{
+        color:#a6a6a6;
+      }
+
+      .white{
+        background-color:white;
+      }
+
+      .lightGray{
+        background-color:#f2f2f2;
+      }
+
+      .floatReset{
+        clear:both;
+      }
+      .contactMe{
+        background-color:#a6a6a6;
+        font-size:25px;
+        height:650px;
+      }
+
+      .contactMe h4{
+        padding:30px;
+      }
+      .BlackBox{
+        background-color:#575757;
+        color:white;
+        width:33%;
+        height:50px;
+        text-align:center;
+        padding-top:20px;
+        float:left;
+      }
+      .MintBox{
+        background-color:#0db9ac;
+        color:white;
+        width:33%;
+        height:50px;
+        text-align:center;
+        padding-top:20px;
+        float:left;
+      }
+      .contactBox{
+        margin-left:20px;
+        margin-bottom:180px;
+
+      }
+
+      .infoBox{
+        border-top:2px solid lightgray;
+        margin:20px;
+        padding-top:20px;
+      }
+
+      .infoBox input[type=text] {
+        width:100%;
+        height:35px;
+        margin-bottom:30px;
+      }
+      #sendButton{
+        background-color:black;
+        color:white;
+        text-align:center;
+        height:30px;
+      }
+      .footer{
+        background-color:#737373;
+        color:white;
+        height:200px;
+        padding:20px 20px 50px 20px;
+      }
+      .footerTitle{
+        font-size:20px;
+      }
+
+      .footerBox{
+        width:33%;
+        margin-right:5px;
+        float:left;
+      }
+      .footer a{
+        color:white;
+      }
+      .mini_footbox{
+        margin-top:20px;
+        margin-right:5px;
+        margin-bottom:0px;
+        clear:both;
+      }
+      .float_footbox{
+        float:left;
+      }
+      .footText{
+        margin-left:5px;
+      }
+      .makeRow{
+        border:1px solid white;
+        clear:both;
+      }
+      .mini-square-box{
+        background-color: #979797;
+        color:black;
+        text-align:center;
+        float:left;
+        margin:3px;
+        padding:3px 5px 3px 5px;
+      }
+      .mini-square-black_box{
+        background-color: black;
+        color:white;
+        text-align:center;
+        float:left;
+        margin:3px;
+        padding:3px 5px 3px 5px;
+        font-size:18px;
+      }
+      .powerBy{
+        background-color:black;
+        clear:both;
+        color:white;
+        text-align:center;
+        height:40px;
+        padding:10px 0px 10px 0px;
+        margin:0px;
+
+      }
+      .powerBy a{
+        color:white;
+        margin:0px;
+
+      }
+      .TitleFilter{
+        padding:20px;
+      }
+
+  </style>
+</head>
+<body>
+  <div class="widthCenter">
+    <div class="TitleFilter">
+  <h1>My Portfolio</h1>
+
+  <form>
+    <label for="Filter">Filter: </label>
+    <input type="submit" value="All" id="black_button">
+    <input type="submit" value="Design">
+    <input type="submit" value="Photos">
+    <input type="submit"value="Art">
+  </form>
+</div>
+    <div class="whiteBigBox">
+
+      <div class="row">
+        <div class="square-content">
+          <img src="mountains.jpg" alt="picture of mountains" width="480px">
+            <div class="text-content">
+            <h5>Lorem Ipsum</h5>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non frigillia</p>
+          </div>
+        </div>
+
+        <div class="square-content">
+          <img src="lights.jpg" alt="picture of aurora" width="480px">
+          <div class="text-content">
+            <h5>Lorem Ipsum</h5>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non frigillia</p>
+          </div>
+        </div>
+
+        <div class="square-content">
+          <img src="nature.jpg" alt="picture of valley" width="480px">
+          <div class="text-content">
+            <h5>Lorem Ipsum</h5>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non frigillia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+          <div class="square-content">
+            <img src="p1.jpg" alt="picture of cloudy nature" width="480px">
+            <div class="text-content">
+              <h5>Lorem Ipsum</h5>
+              <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non frigillia</p>
+            </div>
+          </div>
+
+        <div class="square-content">
+          <img src="p2.jpg" alt="picture of coffeebeen" width="480px">
+          <div class="text-content">
+            <h5>Lorem Ipsum</h5>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non frigillia</p>
+          </div>
+        </div>
+
+        <div class="square-content">
+          <img src="p3.jpg" alt="picture of bear" width="480px">
+          <div class="text-content">
+            <h5>Lorem Ipsum</h5>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non frigillia</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+<!-- pages라는 클래스는, float을 없애기 위해 임시로 할당한 값!-->
+    <div class ="pages">
+      <div class ="pageNum">
+        <a href="#">&laquo;</a>
+        <a href="#"id="blackNum">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#" >&raquo;</a>
+      </div>
+
+
+    </div>
+
+    <div class="mid-content">
+      <img src="avatar_g.jpg" alt="picture of my face" width="725px" class="imgMargin">
+      <img src="me2.jpg" alt="picture of my profile" width="725px" class="imgMargin">
+    </div>
+
+    <div class="mid-text">
+      <h4>About Me</h4>
+      <p>Just me, muself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringila.</p>
+    </div>
+
+    <div class="technical">
+      <h5>Technical Skills</h5>
+      <p>Photography</p>
+      <div class="container">
+        <div class="skills photography">95%</div>
+      </div>
+      <p>Web Design</p>
+      <div class="container">
+        <div class="skills webDesign">85%</div>
+      </div>
+      <p>Photoshop</p>
+      <div class="container">
+        <div class="skills photoshop">80%</div>
+      </div>
+
+      <form>
+        <input type="submit" value="Download Resume" id="resumeButton">
+      </form>
+    </div>
+
+    <div class="charge">
+      <p>How much I charge</p>
+      <div class=ChooseBox>
+        <div class="ChooseTitle black">Basic</div>
+        <p class="listBox lightGray">Web Design</p>
+        <p class="listBox lightGray">Photography</p>
+        <p class="listBox lightGray">1GB Storage</p>
+        <p class="listBox lightGray">Mail Support</p>
+        <p class="listBoxbig lightGray"><span id="bigNum">$10</span><span id="lightWord"><br>per month</span></p>
+        <form>
+          <input type="submit" value="Sign Up" id="SignUpButton">
+        </form>
+
+      </div>
+
+      <div class=ChooseBox>
+        <div class="ChooseTitle mint">Pro</div>
+        <p class="listBox white">Web Design</p>
+        <p class="listBox white">Photography</p>
+        <p class="listBox white">50GB Storage</p>
+        <p class="listBox white">Endless Support</p>
+        <p class="listBoxbig white"><span id="bigNum">$25</span><span id="lightWord"><br>per month</span></p>
+        <form>
+          <input type="submit" value="Sign Up" id="SignUpButton">
+        </form>
+
+      </div>
+
+      <div class=ChooseBox>
+        <div class="ChooseTitle black">Premium</div>
+        <p class="listBox lightGray">Web Design</p>
+        <p class="listBox lightGray">Photography</p>
+        <p class="listBox lightGray">Unlimited Storage</p>
+        <p class="listBox lightGray">Endless Support</p>
+        <p class="listBoxbig lightGray"><span id="bigNum">$25</span><span id="lightWord"><br>per month</span></p>
+        <form>
+          <input type="submit" value="Sign Up" id="SignUpButton">
+        </form>
+
+      </div>
+
+    </div>
+
+    <div class="floatReset"></div>
+    <div class="contactMe">
+        <h4>Contact Me</h4>
+        <div class="contactBox">
+          <div class="BlackBox">email@email.com</div>
+          <div class="MintBox">Chicago, US</div>
+          <div class="BlackBox">512312311</div>
+        </div>
+
+    <div class="floatReset"></div>
+    <div class="infoBox">
+      <form>
+        <label for="fname">Name</label><br>
+        <input type="text"id="fname" name="fname" ><br>
+        <label for="femail">Email</label><br>
+        <input type="text" id="femail" name="femail"><br>
+        <label for="fmessage">Message</label><br>
+        <input type="text" id="fmessage" name="fmessage"><br>
+        <input type="submit"  value="Send Message" id="sendButton">
+      </form>
+    </div>
+    </div>
+
+    <div class="footer">
+      <div class="footerBox">
+        <p class="footerTitle">FOOTER</p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, prta lectus vitae, ultricies conque gravida diam non fringilla. <br><br> Powered by <a href="#">w3.css</a></p>
+      </div>
+      <div class="footerBox">
+        <p class="footerTitle">BLOG POSTS</p>
+        <div class="mini_footbox">
+          <div class="float_footbox"><img src="workshop.jpg" alt="picture of a compass"width="50px"></div>
+          <div class="float_footbox footText"><p>Lorem <br> Sed mattis nunc</p></div>
+        </div>
+
+          <div class="makeRow"></div>
+
+        <div class="mini_footbox">
+          <div class="float_footbox"><img src="gondol.jpg" alt="picture of a gondola"width="50px"></div>
+          <div class="float_footbox footText"><p>Ipsum<br>Praes tinci sed</p></div>
+        </div>
+      </div>
+
+      <div class="footerBox">
+        <p class="footerTitle">POPULAR TAGS</p>
+        <p class="mini-square-black_box">Travel</p>
+        <p class="mini-square-box">New York</p>
+        <p class="mini-square-box">Londin</p>
+        <p class="mini-square-box">IKEA</p>
+        <p class="mini-square-box">NORWAY</p>
+        <p class="mini-square-box">DIY</p>
+        <p class="mini-square-box">Ideas</p>
+        <p class="mini-square-box">Baby</p>
+        <p class="mini-square-box">Family</p>
+        <p class="mini-square-box">News</p>
+        <p class="mini-square-box">Clothing</p>
+        <p class="mini-square-box">Shopping</p>
+        <p class="mini-square-box">Sports</p>
+        <p class="mini-square-box">Games</p>
+      </div>
+    </div>
+
+    <div class="powerBy">
+      <p>Powered by <a href="#">w3.css</a></p>
+    </div>
+  </div>
+  </body>
+</html>
